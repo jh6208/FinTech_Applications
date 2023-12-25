@@ -9,72 +9,74 @@ The C++ projects are designed to address complex problems in financial technolog
 
 This first assignment uses an alternate method to calculate the prices of the European call options using the Cox-Ross-Rubinstein (CRR) procedure. 
 
-* Category: Concept Teachings
+* Category: Concept Teachings (Functions)
 
-***2. Assignment_2_Investment_1:*** 
+***2. Assignment_2_Call_Put_Prices:*** 
 
-This is a short exercise designing an investment strategy in one stock to predict whether the stock price's return the next day is positive or negative. If it is positive, then investors should go long the stock; otherwise, not. This is a common investment strategy in finance; if employed appropriately, investors can make a lot of money.
+This second assignment calculates the prices of European calls and puts and the digit calls and puts using the CRR procedure. 
 
-* Category: Concept Teachings
+* Category: Concept Teachings (Functions)
 
-***3. Assignment_3_Investment_2:***
+***3. Assignment_3_Definite_Integrals:***
 
-This assignment uses the rolling regression and Kalman filtering to design a simple pairs trading strategy in the S&P 500 ETF and the Dow Jones Industrial ETF. Even though performing poorly by both methods, this mini project provides a general blueprint for implementing the pairs trading strategy in finance, a standard statistical arbitrage approach adopted by investors to earn a profit.
+This assignment calculates the definite integral using the Simpson and Trapezoid approaches.
 
-* Category: Concept Teachings
+* Category: Concept Teachings (Classes & Functions)
 
-***4. Assignment_4_SVM:***
+***4. Assignment_4_More_Option_Prices:***
 
-This short exercise aims to familiarize newcomers with the Support Vector Machines' application in classification. The majority of contributions of this assignment are from the textbook "Hands-On Machine Learning with Scikit-Learn and TensorFlow.pdf," https://www.clc.hcmus.edu.vn/wp-content/uploads/2017/11/Hands_On_Machine_Learning_with_Scikit_Learn_and_TensorFlow.pdf,  by the author Géron A., and its corresponding github repository https://github.com/ageron/handson-ml2.
+This short exercise calculates the prices of bulls and spreads using the CRR procedure.
 
-* Category: Concept Teachings
+* Category: Concept Teachings (Polymorphism & Classes & Functions)
 
-***5. Assignment_5_PCA_Applications:***
+***5. Assignment_5_More_Option_Prices:***
 
-Being the first assignment in the unsupervised learning field, Assignment 5 utilizes the principal component analysis (PCA) to extract useful features
-in predicting the returns for the eign portfolios. It then reports the eign portfolios with the highest returns. The same textbook and Github are helpful enough!
+This short exercise calculates the prices of the double-digit options, strangle, and butterflies.
 
-* Category: Concept Teachings
+* Category: Concept Teachings (Polymorphism & Classes & Functions)
 
-***6. Assignment_6_K_Means_Shrink_Correlations_HRP:***
+***6. Assignment_6_American_Options_Replication_Strategy:***
 
-Assignment 6 is a mix of several things: K means clustering, correlation shrinkage, and the Hierarchical Risk Parity to construct the portfolios in finance. Using HRP to build portfolios in finance is a novel idea and solves the singularity problem of matrices. 
+Assignment 6 calculates the prices of American options using the replication approaches.
 
-* Category: Concept Teachings 
+* Category: Concept Teachings (Template & Data Structures & Polymorphism & Classes & Functions)
 
-***7. Assignment_7_DNN_MNIST:***
+***7. Assignment_7_Black_Scholes_Introduction:***
 
-This mini project applies deep neural networks (DNNs) to image (clothing) applications. It extracts datasets from MNIST and then builds up
-a variety of DNN models to maximize the accuracy of the classification task. The good news is that almost all models did a good job, with accuracies close to 90%!
+This assignment aims to approximate the results of the Black Scholes (BS) model using the binomial tree model.
 
-* Category: Concept Teachings
+* Category: Concept Teachings (Template & Data Structures & Polymorphism & Classes & Functions)
 
-***8. Assignment_8_DNN_Constructions:***
+***8. Assignment_8_Bond_Yield_Calculation:***
 
-This assignment takes a deep look into the constructions of the DNNs. It includes five steps: DNN Building Ups, the Applications in Image Classification, Initialization, Optimization, and Regularization. 
+This assignment calculates the yield of semi-annual coupon bonds using the Bisection and Newton-Raphson methods.
 
-* Category: Concept Teachings 
+* Category: Concept Teachings (Multiple Inheritance & Classes & Functions)
 
-***9. Assignment_9_CNN_Constructions:***
+***9. Assignment_9_European_Options_Financial_Applications:***
 
-This exercise takes a deep look into the constructions of the Convolutional Neural Networks (CNNs).
+This exercise edits the original version of Daniel Duffy's book, Introduction to C++ for Financial Engineers, for calculating European Option options with the BS formula.
 
-* Category: Concept Teachings 
+* Category: Financial Applications
 
-***10. Assignment_10_RNN_Constructions:***
+***10. Assignment_10_Asian_Options_Gamma_Determination:***
 
-This exercise takes a deep look into the constructions of the Recurrent Neural Networks (RNNs).
+This exercise calculates the gamma of the Asian calls using the Monte Carlo simulation approach.
 
-* Category: Concept Teachings
+* Category: Concept Teachings (Monte Carlo Simulations & Data Structures Definition & Data Structures & Polymorphism & Classes & Functions)
 
-***11. Assignment_10_RNN_Constructions:***
-  
-* Category: Concept Teachings
+***11. Assignment_10_Asian_Option_Prices_Improved:***
 
-***12. Assignment_10_RNN_Constructions:***
+This assignment reduces the pricing error of the Asian calls by using the control-variable approaches.
 
-* Category: Concept Teachings
+* Category: Concept Teachings (Monte Carlo Simulations & Data Structures Definition & Data Structures & Polymorphism & Classes & Functions)
+
+***12. Assignment_10_Basket_of_Asian_Option_Prices_Determination:***
+
+This last assignment applies the Monte Carlo method to calculate the prices of a basket of Asian call options.
+
+* Category: Concept Teachings (Monte Carlo Simulations & Data Structures Definition & Data Structures & Polymorphism & Classes & Functions)
   
 ***13. Final_Project_CAAR_Finance:***
 
-This final project concludes with the course. However, it only focuses on topics we have learned. It investigates another exciting field in machine learning: Reinforcement Learning (RL). Reinforcement Learning involves maximizing the Q-value functions and working backward by taking the action that maximizes future rewards. In this setting, the model-free algorithm, the so-called Q-Learning Black Scholes model, extends the classical Black Scholes model and solves the infamous volatility smile problem in finance. This project explains the code applications of the mathematical methodology of the QLBS model in detail. It describes the key points readers should remember from the QLBS model (stored in the pdf file "QLBS_Model_Review.pdf").
+This final project is a hands-on application in the financial technology field. It investigates the quarterly reports’ impact on stock market trends. It first fetches data using the libcurl library to access the daily adjusted prices of Russell 300 Component stocks. Then it calculates the daily log returns, cumulative returns, abnormal returns (AR) using IWV index as the benchmark), the average of AR (AAR), AAR Std, Cumulative AAR (CAAR), and CAAR Std by bootstrapping these stocks and by repeating the procedure of randomly selecting 30 stocks 40 times for each group (i.e, beat, meet, and miss groups based on the ordering of the surprise% in the earning announcement file Russell3000EarningsAnnouncements.csv). Finally, it plots the CAAR graph for each group (Note: the x-axis is time ranging from N days before and after the earning announcement day for each component stock, and N is no less than 60 and no bigger than 90 days).
