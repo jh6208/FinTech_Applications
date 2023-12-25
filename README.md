@@ -39,13 +39,13 @@ This short exercise calculates the prices of the double-digit options, strangle,
 
 Assignment 6 calculates the prices of American options using the replication approaches.
 
-* Category: Concept Teachings (Template & Data Structures & Polymorphism & Classes & Functions)
+* Category: Concept Teachings (Templates & Data Structures & Polymorphism & Classes & Functions)
 
 ***7. Assignment_7_Black_Scholes_Introduction:***
 
 This assignment aims to approximate the results of the Black Scholes (BS) model using the binomial tree model.
 
-* Category: Concept Teachings (Template & Data Structures & Polymorphism & Classes & Functions)
+* Category: Concept Teachings (Templates & Data Structures & Polymorphism & Classes & Functions)
 
 ***8. Assignment_8_Bond_Yield_Calculation:***
 
