@@ -15,7 +15,7 @@ This first assignment uses an alternate method to calculate the prices of the Eu
 
 This second assignment calculates the prices of European calls and puts and the digit calls and puts using the CRR procedure. 
 
-* Category: Concept Teachings (Functions)
+* Category: Concept Teachings (Function Pointers & Functions)
 
 ***3. Assignment_3_Definite_Integrals:***
 
